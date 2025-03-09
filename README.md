@@ -17,16 +17,23 @@ A web-based dashboard for analyzing cryptocurrency investment risks and market t
 ```sh
 git clone https://github.com/imsoeun/crypto-risk-dashboard.git
 cd crypto-risk-dashboard
+```
 
 2. Install dependencies
+```sh
 pip install -r requirements.txt
+```
 
 3. Start the backend server
+```sh
 uvicorn main:app --reload
---> The backend server will start at http://127.0.0.1:8000
+```
+> The backend server will start at http://127.0.0.1:8000
 
 4. Start the frontend
+```sh
 cd frontend
 npm install
 npm start
+```
 --> Open http://localhost:3000
